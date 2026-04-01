@@ -68,5 +68,6 @@ form.addEventListener("submit", (event) => {
     }
     result.textContent = `Данные сохранены: ${name}, ${age} лет`
     result.style.color = "green"
+    form.reset();
         
 });
